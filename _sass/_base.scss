@@ -1,0 +1,264 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.row {
+    background-color: white;
+}
+
+.topic {
+    /*margin-top: 30px;*/
+    min-height: 8em;
+    min-width: 400px;
+    overflow: hidden;
+}
+
+.topic h1 {
+    font-size: 5em;
+    /*text-align: center;*/
+    /*font-weight: bold;*/
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    /*text-transform: uppercase;*/
+}
+
+.topic img {
+    float: right;
+    height: 6.5em;
+    margin-top: 0.5em;
+    margin-bottom: -0.5em;
+}
+
+.topic:after {
+    clear: both;
+}
+
+.content {
+    padding-top: 10px;
+    background-color: white;
+    float: left;
+    font-size: 18px;
+    line-height:1.5;
+
+    margin-bottom: 150px;
+
+    .post-content{
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.post-meta {
+    color: gray
+}
+
+.navigation {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #444;
+
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+    font-size: px;
+
+    box-shadow: 0px 2px 6px #888888;
+
+    /*height: 50px;*/
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0;
+
+    text-align: center;
+}
+
+.navigation a {
+    margin: 0px;
+    padding: 5px 20px;
+    font-size: 25px;
+    color: white;
+    display: block;
+    height: auto;
+    position: relative;
+    /*border-left: 1px solid white;*/
+
+}
+
+.navigation a:hover {
+    border-bottom: 4px solid orange;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+.navigation a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+}
+
+.navigation .last a:after{
+    display: none;
+}
+
+.navigation .active a {
+    color: orange;
+    /*background-color: gray;*/
+}
+
+.landingimg {
+    height: auto;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.relativecontainer {
+    position: relative;
+    height: 0;
+}
+
+.landingimgtext {
+    position: absolute;
+    left: 0em;
+    top: -100px;
+    background-color: rgba(255, 165, 0, 0.59);
+    display: inline;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+}
+
+.bio  {
+    float:left;
+    /*padding: 0px;*/
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #888888;
+    width: 100%;
+    overflow: hidden;
+    max-height: 255px;
+}
+
+.bio img {
+    width: 35%;
+    float:left;
+    /*max-height: 210px;*/
+    max-width: 210px;
+}
+
+.bio .bio-details {
+    float:left;
+    width: 65%;
+    padding: 20px;
+    font-size: 15px;
+
+    ul {
+        margin-bottom: 0px;
+
+        li i {
+            font-size: 15px;
+            vertical-align: middle;
+            text-align: center;
+            min-width: 1.5em;
+        }
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px; 
+        font-size: 20px;
+    }
+
+     h5 {
+        margin-top: 3px;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+}
+
+.bio-details p {
+    margin: 0px;
+    /*line-height: 1;*/
+    text-align: justify;
+    padding-bottom: 5px;
+    min-height: 110px;
+
+}
+
+.research-list {
+    list-style-type:none;
+    list-style-position: inside;
+    padding: 0px;
+    li {
+        padding-bottom: 10px;
+    }
+}
+
+.imagecontainer {
+    img {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .bio .bio-details {
+        padding: 10px 15px;
+
+        p {
+        line-height: 1;
+        min-height: 85px;
+        } 
+    }
+
+    .bio {
+        max-height: 209px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .bio {
+        font-size: 120%;
+        max-height: 500px;
+    }
+
+    .bio .bio-details {
+
+        p {
+            font-size: 16px;
+        }
+
+        h3 {
+            font-size: 200%;
+        }
+
+        h5 {
+            font-size: 16   px; 
+        }
+
+    }
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    margin-bottom: 10px;
+    /*margin-top: 150px;*/
+}
