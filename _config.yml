@@ -108,6 +108,7 @@ author:
   bio              : "Data science portfolio"
   location         : "Finland"
   email            : "daniel.fellman@abo.fi"
+  github           : "danielfellman"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
