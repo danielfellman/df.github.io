@@ -107,10 +107,10 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data science portfolio"
   location         : "Finland"
-  email            :
+  email            : "daniel.fellman@abo.fi"
   links:
     - label: "Email"
-      icon: "daniel.fellman@abo.fi"
+      icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
