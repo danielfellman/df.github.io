@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Portfolio"
+  - title: "Portfolio Posts by Tags"
     url: /portfolio/
 
   # - title: "About"
