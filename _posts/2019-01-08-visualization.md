@@ -2,8 +2,6 @@
 title: "Visualizing cognitive performance across time"
 date: "2018-01-08"
 tags: [R, data science]
-header:
-  image: "/images/plot.jpg"
 excerpt: "Data visualizations"
 ---
 
