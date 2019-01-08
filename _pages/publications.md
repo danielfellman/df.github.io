@@ -1,7 +1,10 @@
 ---
 layout: archive
-permalink: /publications/
+permalink: /publ/
 title: "Publications"
+author_profile: true
+header:
+  image: "/images/lektia2.jpg"
 ---
 
 ##Publication List
