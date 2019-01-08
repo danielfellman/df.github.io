@@ -3,8 +3,6 @@ layout: archive
 permalink: /publ/
 title: "Publications"
 author_profile: true
-header:
-  image: "/images/lektia2.jpg"
 ---
 * Fellman, D., & Simberg, S. (2017). Prevalence and risk factors for voice problems among soccer coaches. *Journal of Voice, 31(1),* 121. e9-121. e15. doi:10.1016/j.jvoice.2016.02.003
 *	Fellman, D., Soveri, A., Waris, O., & Laine, M. (2017). Training of verbal working memory at sentence level fails to show transfer. *Frontiers in Communication, 2,* 14.
