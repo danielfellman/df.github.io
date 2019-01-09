@@ -5,4 +5,4 @@ header:
   image: "/images/lektia.jpg"
 ---
 
-I'm a post doctoral researher at Åbo Akademi university.
+I'm a post doctoral researher (PhD) at Åbo Akademi university.
