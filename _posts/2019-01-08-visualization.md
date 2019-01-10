@@ -17,7 +17,8 @@ And here's some *italics*
 
 Here's some **bold text**
 
-Here is a link [https://braintrain.fi](https://braintrain.fi)
+Here is a link [https://braintrain.fi/](https://braintrain.fi)
+[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205916/](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205916)
 
 Here's a bulleted list
 * First item
